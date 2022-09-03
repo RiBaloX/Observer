@@ -10,9 +10,10 @@ package observer;
  *
  * @author kant2
  */
-public class Marketing implements MyObserver {
+public class Online implements MyObserver {
     @Override
     public void update(Source o) {
         System.out.println("live result: "+((HeadQuater)o).getTeam1Data()+" "+((HeadQuater)o).getScore1Data()+" - " + ((HeadQuater)o).getScore2Data()+" "+((HeadQuater)o).getTeam2Data());
     }
+
 }

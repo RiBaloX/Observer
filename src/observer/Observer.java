@@ -14,8 +14,8 @@ import java.util.Scanner;
 public class Observer {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Senior obj1 = new Senior();
-        Marketing obj2 = new Marketing();
+        Online obj1 = new Online();
+        LiveSteam obj2 = new LiveSteam();
         HeadQuater obj = new HeadQuater();
         obj.register(obj1);
         obj.register(obj2);
